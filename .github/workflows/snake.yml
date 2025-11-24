@@ -1,0 +1,43 @@
+name: Generate contribution snake
+
+on:
+  # run once a day
+  schedule:
+    - cron: "0 0 * * *"
+  # allow manual run
+  workflow_dispatch:
+  # (optional) run on every push to main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake files
+        uses: Platane/snk@v3
+        with:
+          # GitHub user name to read the contribution graph from
+          github_user_name: ${{ github.repository_owner }}
+
+          # list of files to generate
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
+
+      - name: Commit and push snake files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update snake"
+          branch: main
+          file_pattern: dist/*
+
