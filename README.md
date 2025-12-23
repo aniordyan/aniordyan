@@ -4,7 +4,7 @@
 
 <code>[info]</code>
 
-`>` currently a cs student <a href = "https://aua.am/" > <img src="badges/usbstudent.png" height="26" align="middle" /> </a> 
+`>` currently a cs <a href = "https://aua.am/" > <img src="badges/usbstudent.png" height="26" align="middle" /> </a> 
 
 `>` email me <a href = "mailto:nuwanda@keemail.me" > <img src="badges/email.gif" height="26" align="middle" /> </a>
 
