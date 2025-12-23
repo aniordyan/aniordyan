@@ -1,20 +1,16 @@
 <img src="terminal_typing_hacker_full.gif" width="900">
 
-<div style="border:1px solid #333; padding:12px; border-radius:8px; width:fit-content">
+<div>
 
-<code>
-<strong>[info]</strong>
+<code>[info]</code>
 
-<p> > currently a cs student
-<img src="badges/usbstudent.png" height="26" align="middle" /> </p>
+`>` currently a cs student <a href = "https://aua.am/" > <img src="badges/usbstudent.png" height="26" align="middle" /> </a> 
 
-<p> > email me </p>
-<img src="badges/email.gif" height="26" align="middle" />
+`>` email me <a href = "mailto:nuwanda@keemail.me" > <img src="badges/email.gif" height="26" align="middle" /> </a>
 
-<p> > learning by breaking things </p>
-<img src="badges/firebutton.gif" height="26" align="middle" />
-</code>
+`>` learning by breaking things <img src="badges/firebutton.gif" height="26" align="middle" />
 </div>
+
 
 
 
