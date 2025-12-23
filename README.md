@@ -1,6 +1,6 @@
 <img src="terminal_typing_hacker_full.gif" width="900">
 
-```md
+
 [info]
 > currently a cs  ![student](badges/usbstudent.png)
 > ![](badges/email.gif)
