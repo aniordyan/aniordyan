@@ -2,23 +2,18 @@
 
 <div style="border:1px solid #333; padding:12px; border-radius:8px; width:fit-content">
 
-<strong>info</strong>
+<code>
+<strong>[info]</strong>
 
-<br><br>
-
-currently a cs student
+<p> > currently a cs student </p>
 <img src="badges/usbstudent.png" height="26" align="middle" />
 
-<br><br>
-
-email me
+<p> > email me </p>
 <img src="badges/email.gif" height="26" align="middle" />
 
-<br><br>
-
-learning by breaking things
+<p> > learning by breaking things </p>
 <img src="badges/firebutton.gif" height="26" align="middle" />
-
+</code>
 </div>
 
 
