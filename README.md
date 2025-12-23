@@ -5,8 +5,8 @@
 <code>
 <strong>[info]</strong>
 
-<p> > currently a cs student </p>
-<img src="badges/usbstudent.png" height="26" align="middle" />
+<p> > currently a cs student
+<img src="badges/usbstudent.png" height="26" align="middle" /> </p>
 
 <p> > email me </p>
 <img src="badges/email.gif" height="26" align="middle" />
